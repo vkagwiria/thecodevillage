@@ -1,3 +1,7 @@
 firstname = 'John'
 lastname = 'Doe'
-print(firstname, ' 'lastname)
+middlename = 'Row'
+age = '28'
+print(firstname, ' ',lastname)
+print(firstname,middlename,lastname)
+print(firstname,middlename,lastname,age)
