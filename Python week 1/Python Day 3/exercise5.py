@@ -1,0 +1,6 @@
+degree=int(input("Insert your temperature in celcius degrees: "))
+formula1= int( (degree * 9/5))
+fahrenheit= int(formula1+32)
+print("You entered", degree,"° Celcius. The Fahrenheit equivalent is", fahrenheit,"° degrees Fahrenheit.")
+print("You entered {}° degrees Celcius. The Fahrenheit equivalent is {}° Fahrenheit degrees.".format(degree, fahrenheit))
+print(f"You entered {degree}° degrees Celcius. The Fahrenheit equivalent is {fahrenheit}° Fahrenheit degrees")
